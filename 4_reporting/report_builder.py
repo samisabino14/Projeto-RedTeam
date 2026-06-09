@@ -1,0 +1,1 @@
+""" construtor de relatórios para apresentação dos resultados da exploração e pós-exploração """

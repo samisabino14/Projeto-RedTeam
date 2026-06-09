@@ -1,0 +1,1 @@
+""" coletor de evidências para documentação dos resultados da exploração e pós-exploração """
