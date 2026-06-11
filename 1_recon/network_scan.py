@@ -1,1 +1,0 @@
-""" varredura de rede """

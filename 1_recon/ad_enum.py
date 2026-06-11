@@ -1,1 +1,0 @@
-""" enumeração de domínio Active Directory """
