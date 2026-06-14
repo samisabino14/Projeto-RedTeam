@@ -7,7 +7,6 @@ domain_parts = separate_domain()
 
 def ad_connect(dc_ip: str, user: str, password: str):
 
-
     server = Server(dc_ip, get_info=ALL)
 
     """ tenta estabelecer uma conexão com o controlador de domínio usando as credenciais fornecidas """
@@ -35,7 +34,7 @@ def enumerate_groups(conn: Connection) -> list[str]:
     """ pesquisa por todos os objetos do tipo 'group' no Active Directory e retorna seus nomes de grupo (sAMAccountName) """
     conn.search(
         search_base=f"DC={domain_parts[0]},DC={domain_parts[1]}",
-        serach_filter="(objectClass=group)",
+        search_filter="(objectClass=group)",
         attributes=["sAMAccountName", "memberOf"]
     )
 
