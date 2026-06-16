@@ -71,26 +71,26 @@ Antes de executar o projeto, certifique‑se de que possui:
 
 ### **4. Rodar Metasploit RPC (no terminal)**
 
-- Iniciar o serviço: (PostgreSQL): 
-```bash
-sudo systemctl start PostgreSQL
-- Inicializar a BD de Metasploit Interface: 
-```bash
-sudo msfdb init
-- Entrar na console de Metasploit Interface: 
-```bash
-msfconsole
-- Dentro da msfconsole: load msgrpc Pass="r368Duzz"
+    - Iniciar o serviço: (PostgreSQL): 
+    ```bash
+    sudo systemctl start PostgreSQL
+    - Inicializar a BD de Metasploit Interface: 
+    ```bash
+    sudo msfdb init
+    - Entrar na console de Metasploit Interface: 
+    ```bash
+    msfconsole
+    - Dentro da msfconsole: load msgrpc Pass="r368Duzz"
 
-Nota: O Metasploit utiliza PostgreSQL como backend.  
+    Nota: O Metasploit utiliza PostgreSQL como backend.  
 
 ### **5. Rodar o main.py**
-Ativar o Ambiente Virtual (venv):
-```bash
-source venv/bin/activate
+    Ativar o Ambiente Virtual (venv):
+    ```bash
+    source venv/bin/activate
 
-```bash
-python3 main.py
+    ```bash
+    python3 main.py
 
-Nota: deve ser rodado dentro do venv na pasta do projeto
+    Nota: deve ser rodado dentro do venv na pasta do projeto
 
